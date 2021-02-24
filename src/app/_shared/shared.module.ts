@@ -2,6 +2,7 @@ import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {SidebarModule} from 'primeng/sidebar';
 import {ButtonModule} from 'primeng/button';
+import {MegaMenuModule} from 'primeng/megamenu';
 
 
 @NgModule({
@@ -9,11 +10,13 @@ import {ButtonModule} from 'primeng/button';
   imports: [
     CommonModule,
     SidebarModule,
-    ButtonModule
+    ButtonModule,
+    MegaMenuModule
   ],
   exports: [
     SidebarModule,
-    ButtonModule
+    ButtonModule,
+    MegaMenuModule
 
   ]
 })
