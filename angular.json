@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "niceshitgames"
+  "defaultProject": "niceshitgames",
+  "cli": {
+    "analytics": "ef34eb14-5f9b-4170-897c-ca8edb9f6312"
+  }
 }
