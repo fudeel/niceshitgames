@@ -7,9 +7,6 @@ import {Component, OnInit} from '@angular/core';
 })
 export class HomepageComponent implements OnInit {
 
-
-  visibleSidebar1: boolean = true;
-
   constructor() {
   }
 

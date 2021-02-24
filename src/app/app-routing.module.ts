@@ -3,12 +3,8 @@ import {RouterModule, Routes} from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'homepage',
-    loadChildren: () => import('./_pages/_public/homepage/homepage.module').then(m => m.HomepageModule)
-  },
-  {
-    path: 'login',
-    loadChildren: () => import('./_pages/_public/login/login.module').then(m => m.LoginModule)
+    path: 'public',
+    loadChildren: () => import('./_pages/_public/public/public.module').then(m => m.PublicModule)
   },
   {
     path: 'admin-panel',
@@ -16,7 +12,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'homepage',
+    redirectTo: 'public',
     pathMatch: 'full'
   }];
 
