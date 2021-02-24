@@ -7,6 +7,7 @@ import {AngularFireModule} from '@angular/fire';
 import {AngularFireAnalyticsModule} from '@angular/fire/analytics';
 import {environment} from '../environments/environment';
 import {AngularFirestoreModule} from '@angular/fire/firestore';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import {AngularFirestoreModule} from '@angular/fire/firestore';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAnalyticsModule,
